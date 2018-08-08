@@ -233,7 +233,7 @@ background: rgba(0, 0, 0, 0.05);
 
     #work .bg5 .single-work:hover{
 
-       transform: scale(1.2);
+       transform: scale(1.1);
     }
     #work .single-work:hover .singlework_inner{
         background-color:rgba(0,0,0,0.7);
@@ -247,11 +247,7 @@ background: rgba(0, 0, 0, 0.05);
 
 
     }
-    #contact p{
-        font-size: 20px;
-        font-family:'Times New Roman', Times, serif;
-        text-align:center;
-    }
+  
     .itemhover{
         position: absolute;
         margin-left:30%;
@@ -281,12 +277,17 @@ background: rgba(0, 0, 0, 0.05);
         min-height: 10px;
         margin-top:50px;
     }
+    #contact p{
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        text-align:center;
+    }
     #contact .form{
         background-color:#F7F7F7;
         min-height: 690px;
     }
     #contact form{
-        width:500px;
+       width:70%;
         margin:auto;
         margin-top:30px;
     }
